@@ -1,0 +1,50 @@
+// Component to display update notifications.
+
+.lp_update_notification {
+	background-color: #a9e2de;
+	min-height: 40px;
+
+	p.version_text {
+		margin: 0;
+		padding: 15px 20px;
+		float: left;
+		font-size: 12px;
+	}
+
+	p.version_info {
+		margin: 0;
+		padding: 10px 20px;
+		a {
+			margin-left: 20px;
+		}
+	}
+
+	a.close_notice {
+		font-size: 20px;
+	}
+
+	a.notice_inner_link {
+		margin: 0 !important;
+	}
+}
+
+.lp_info_notification {
+	background-color: #a9e2de;
+	padding: 10px 30px;
+
+	p {
+		margin-top: 0;
+		padding: 10px 20px;
+		float: left;
+		font-size: 12px;
+	}
+
+	a {
+		margin-top: 0 !important;
+		margin-left: 10px;
+	}
+
+	a.close_info {
+		font-size: 20px;
+	}
+}
